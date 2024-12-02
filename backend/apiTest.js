@@ -2,7 +2,7 @@ const axios = require('axios');
 
 // Base URL for the backend
 const apiClient = axios.create({
-  baseURL: 'http://localhost:5000/api/v1',
+  baseURL: 'http://localhost:5001/api/v1',
   headers: {
     'Content-Type': 'application/json',
   },
